@@ -2,11 +2,13 @@
 
 Calabar Tastee – Authentic Nigerian Restaurant in Edinburgh.
 
-## Live Website
+## 🌐 Live Website
 
-The website is automatically deployed to GitHub Pages on every push to `main`:
+[![Live Site](https://img.shields.io/badge/Live%20Site-Visit%20Now-brightgreen?style=for-the-badge)](https://skyford7.github.io/calabar/)
 
-**[https://skyford7.github.io/calabar/](https://skyford7.github.io/calabar/)**
+**👉 [https://skyford7.github.io/calabar/](https://skyford7.github.io/calabar/)**
+
+> ⚠️ **First-time setup:** Go to **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**, then re-run the deploy workflow (or push to `main`) to publish the site.
 
 ## Development
 
