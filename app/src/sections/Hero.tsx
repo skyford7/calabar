@@ -18,7 +18,7 @@ export function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0">
         <img
-          src="/restaurant-hero.jpg"
+          src={`${import.meta.env.BASE_URL}restaurant-hero.jpg`}
           alt="Calabar Tastee Restaurant"
           className="w-full h-full object-cover"
         />

@@ -39,12 +39,12 @@ export function About() {
           <div className="relative">
             <div className="grid grid-cols-2 gap-4">
               <img
-                src="/jollof-rice.jpg"
+                src={`${import.meta.env.BASE_URL}jollof-rice.jpg`}
                 alt="Nigerian Jollof Rice"
                 className="rounded-2xl shadow-2xl w-full h-48 md:h-64 object-cover transform translate-y-8"
               />
               <img
-                src="/egusi-soup.jpg"
+                src={`${import.meta.env.BASE_URL}egusi-soup.jpg`}
                 alt="Traditional Egusi Soup"
                 className="rounded-2xl shadow-2xl w-full h-48 md:h-64 object-cover"
               />

@@ -13,6 +13,8 @@ interface MenuItem {
   spicy?: boolean;
 }
 
+const base = import.meta.env.BASE_URL;
+
 const menuItems: MenuItem[] = [
   // Rice Dishes
   {
@@ -21,7 +23,7 @@ const menuItems: MenuItem[] = [
     description:
       'Nigeria\'s famous party rice cooked in rich tomato stew with aromatic spices, served with grilled chicken',
     price: '£14.80',
-    image: '/jollof-rice.jpg',
+    image: `${base}jollof-rice.jpg`,
     category: 'Rice Dishes',
     popular: true,
   },
@@ -31,7 +33,7 @@ const menuItems: MenuItem[] = [
     description:
       'Classic Jollof rice served with tender beef pieces and sweet fried plantains',
     price: '£14.80',
-    image: '/jollof-rice.jpg',
+    image: `${base}jollof-rice.jpg`,
     category: 'Rice Dishes',
   },
   {
@@ -40,7 +42,7 @@ const menuItems: MenuItem[] = [
     description:
       'Our signature Jollof rice with grilled chicken and crispy fried plantain slices',
     price: '£15.40',
-    image: '/jollof-rice.jpg',
+    image: `${base}jollof-rice.jpg`,
     category: 'Rice Dishes',
     popular: true,
   },
@@ -50,7 +52,7 @@ const menuItems: MenuItem[] = [
     description:
       'Fragrant fried rice with mixed vegetables, scrambled eggs, and grilled chicken',
     price: '£16.80',
-    image: '/fried-rice.jpg',
+    image: `${base}fried-rice.jpg`,
     category: 'Rice Dishes',
   },
   // Traditional Soups
@@ -60,7 +62,7 @@ const menuItems: MenuItem[] = [
     description:
       'The king of Calabar soups! Rich vegetable soup with pumpkin leaves, waterleaf, assorted meats, and dried fish',
     price: '£17.20',
-    image: '/edikaikong-soup.jpg',
+    image: `${base}edikaikong-soup.jpg`,
     category: 'Traditional Soups',
     popular: true,
     spicy: true,
@@ -71,7 +73,7 @@ const menuItems: MenuItem[] = [
     description:
       'Nutritious soup made with Afang leaves, waterleaf, assorted meats, and seafood',
     price: '£17.20',
-    image: '/afang-soup.jpg',
+    image: `${base}afang-soup.jpg`,
     category: 'Traditional Soups',
     popular: true,
     spicy: true,
@@ -82,7 +84,7 @@ const menuItems: MenuItem[] = [
     description:
       'Rich and creamy melon seed soup with leafy vegetables, assorted meats, and fish',
     price: '£17.20',
-    image: '/egusi-soup.jpg',
+    image: `${base}egusi-soup.jpg`,
     category: 'Traditional Soups',
     popular: true,
   },
@@ -92,7 +94,7 @@ const menuItems: MenuItem[] = [
     description:
       'Delicious okra soup with seafood, meats, and traditional seasonings',
     price: '£16.00',
-    image: '/egusi-soup.jpg',
+    image: `${base}egusi-soup.jpg`,
     category: 'Traditional Soups',
     spicy: true,
   },
@@ -103,7 +105,7 @@ const menuItems: MenuItem[] = [
     description:
       'Traditional Calabar delicacy made with grated cocoyam wrapped in leaves, cooked with palm oil and periwinkles',
     price: '£18.00',
-    image: '/edikaikong-soup.jpg',
+    image: `${base}edikaikong-soup.jpg`,
     category: 'Special Dishes',
     popular: true,
     spicy: true,
@@ -114,7 +116,7 @@ const menuItems: MenuItem[] = [
     description:
       'Slow-cooked beans in palm oil sauce served with sweet fried plantains',
     price: '£12.50',
-    image: '/jollof-rice.jpg',
+    image: `${base}jollof-rice.jpg`,
     category: 'Special Dishes',
   },
   // Stews
@@ -124,7 +126,7 @@ const menuItems: MenuItem[] = [
     description:
       'Rich tomato-based stew with tender chicken pieces, perfect with rice or swallow',
     price: '£15.40',
-    image: '/fried-rice.jpg',
+    image: `${base}fried-rice.jpg`,
     category: 'Stews',
   },
   {
@@ -132,7 +134,7 @@ const menuItems: MenuItem[] = [
     name: 'Beef Stew',
     description: 'Flavorful beef stew slow-cooked in traditional Nigerian spices',
     price: '£15.40',
-    image: '/fried-rice.jpg',
+    image: `${base}fried-rice.jpg`,
     category: 'Stews',
     spicy: true,
   },
